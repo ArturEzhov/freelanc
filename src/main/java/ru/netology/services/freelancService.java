@@ -5,7 +5,7 @@ public class freelancService {
         int money = 0;
         int counter = 0;
 
-        for (int i = 0, i < 12, i++) {
+        for (int i = 0; i < 12; i = i + 1) {
             if (money >= threshold) {
                 money = money - expenses;
                 money = money / 3;
